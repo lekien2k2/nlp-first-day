@@ -61,38 +61,25 @@ cd nlp-first-day
 
 ### Chạy chatbot
 ```bash
-python buoi-1/chatbot_optimized.py  # Phiên bản tối ưu
+python buoi-1/chatbot.py  # Phiên bản tối ưu
 ```
 
 ## 💬 Ví dụ sử dụng
 
 ```
-Bạn: NLP là gì?
-Bot: NLP (Xử lý ngôn ngữ tự nhiên) là lĩnh vực giúp máy tính hiểu, sinh và tương tác bằng ngôn ngữ con người.
+Bạn: Môn học này nói về gì?
+Bot: Môn học Xử lý ngôn ngữ tự nhiên (NLP) giới thiệu về cách máy tính hiểu và xử lý ngôn ngữ con người.
 
-Bạn: What is tokenization?
-Bot: Tokenization là bước tách văn bản thành đơn vị nhỏ (từ hoặc subword) để mô hình có thể xử lý.
+Bạn: Cần những kiến thức gì để học môn này?
+Bot: Bạn nên nắm vững kiến thức về đại số tuyến tính, xác suất thống kê và lập trình.
 
-Bạn: Cho mình biết về BERT
-Bot: BERT là mô hình mã hóa hai chiều mạnh, dùng cho phân loại, NER, QA (thường fine-tune theo tác vụ).
+Bạn: What algorithms are used in NLP?
+Bot: Một số thuật toán phổ biến trong NLP là N-gram, HMM, LSTM, và Transformer.
+
+Bạn: Có thư viện nào để làm NLP không?
+Bot: Các thư viện lập trình phổ biến nhất là NLTK, spaCy, và Hugging Face Transformers.
+
+Bạn: Bài tập môn này như thế nào?
+Bot: Bài tập của môn học thường bao gồm xây dựng các mô hình như phân loại văn bản và nhận dạng thực thể.
 ```
 
-## ⚠️ Hạn chế hiện tại
-
-1. **Từ đồng nghĩa**: Chỉ nhận diện các từ khóa đã được định nghĩa
-2. **Lỗi chính tả**: Chỉ xử lý được các lỗi nhỏ, không xử lý được lỗi lớn
-3. **Phạm vi hạn chế**: Chỉ trả lời được các câu hỏi trong phạm vi luật
-4. **Khó mở rộng**: Cần thêm luật thủ công khi muốn mở rộng kiến thức
-
-## 🔄 Cải tiến tương lai
-
-1. Thêm xử lý từ đồng nghĩa tự động
-2. Cải thiện khả năng chịu lỗi chính tả
-3. Tích hợp với mô hình ngôn ngữ để trả lời linh hoạt hơn
-4. Thêm khả năng học từ tương tác với người dùng
-
-## 📝 Tài liệu tham khảo
-
-1. [Natural Language Processing with Python](https://www.nltk.org/book/)
-2. [Rule-based NLP Systems](https://web.stanford.edu/~jurafsky/slp3/)
-3. [Building Chatbots in Python](https://www.datacamp.com/courses/building-chatbots-in-python)
