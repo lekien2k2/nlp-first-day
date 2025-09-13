@@ -36,16 +36,6 @@ Một chatbot đơn giản trả lời các câu hỏi về Xử lý Ngôn ngữ
    - Thư viện lập trình (NLTK, spaCy, Hugging Face)
    - Tài liệu giảng dạy trên LMS
 
-3. **Kiến thức chuyên môn**:
-   - Thuật toán cơ bản (N-gram, HMM, LSTM)
-   - Mô hình hiện đại (Transformer)
-   - Bài tập thực hành
-
-4. **Ứng dụng thực tế**:
-   - Dịch máy (Machine Translation)
-   - Phân tích cảm xúc (Sentiment Analysis)
-   - Chatbot và trợ lý ảo
-   - Nhận dạng giọng nói (ASR)
 
 ## 🛠️ Cài đặt và Sử dụng
 
@@ -61,7 +51,7 @@ cd nlp-first-day
 
 ### Chạy chatbot
 ```bash
-python buoi-1/chatbot.py  # Phiên bản tối ưu
+python chatbot.py  
 ```
 
 ## 💬 Ví dụ sử dụng
