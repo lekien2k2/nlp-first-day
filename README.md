@@ -21,8 +21,8 @@ Một chatbot đơn giản trả lời các câu hỏi về Xử lý Ngôn ngữ
 
 - **Hỗ trợ đa ngôn ngữ**: Nhận câu hỏi bằng tiếng Việt hoặc tiếng Anh
 - **Xử lý mờ**: Chấp nhận lỗi chính tả nhẹ và các cách diễn đạt khác nhau
-- **Cơ chế fallback**: Trả lời thân thiện khi không tìm thấy luật phù hợp
-- **20+ luật tích hợp**: Bao gồm các khái niệm NLP cơ bản và nâng cao
+- **Cơ chế fallback**: Trả lời thân thiện khi không tìm thấy quy tắc phù hợp
+- **10 quy tắc tích hợp**: Bao gồm các nội dung liên quan đến lớp học NLP
 
 ## Các chủ đề được hỗ trợ
 
